@@ -19,6 +19,10 @@ Copy the `distro.make` file to your environment and build the code base using
 
 Install Drupal as usual.
 
+### Warning
+
+This is very experimental. Expect it to fail miserably.
+
 ### Based on Build Kit
 
 This distribution is based on [Build Kit](http://drupal.org/project/buildkit).
