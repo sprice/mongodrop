@@ -28,6 +28,8 @@ function mongodrop_install() {
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
 
-  // Rehash blocks into MongoDB
-  _mongodb_block_rehash(variable_get('theme_default', 'garland'));
+  // Rehash blocks in MongoDB
+  if (module_exists('mongodb_block')) {
+    _mongodb_block_rehash(variable_get('theme_default', 'garland'));
+  }
 }
