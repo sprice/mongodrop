@@ -17,6 +17,8 @@ Copy the `distro.make` file to your environment and build the code base using
 
     $ drush make distro.make --working-copy distro.make public_html
 
+Install Drupal as usual.
+
 ### Based on Build Kit
 
-This distribution is based on [Build Kit](http://drupal.org/project/buildkit)
+This distribution is based on [Build Kit](http://drupal.org/project/buildkit).
