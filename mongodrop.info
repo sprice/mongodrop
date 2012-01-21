@@ -4,7 +4,6 @@ description = A simple Drupal distro using MongoDB.
 
 ; Core
 dependencies[] = book
-dependencies[] = comment
 dependencies[] = contact
 dependencies[] = field_ui
 dependencies[] = file
