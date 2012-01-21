@@ -55,3 +55,7 @@ projects[mongodb][patch][] = https://raw.github.com/gist/2727f9a8ba789dd284ef/48
 ; Drupal Crashes when writting to page cache in mongodb
 ; http://drupal.org/node/910726#comment-5017190
 projects[mongodb][patch][] = http://drupal.org/files/issues/910726_non_utf8_strings.patch
+
+; Fatal error: Class 'TaxonomyTermController' not found
+; http://drupal.org/node/1361912#comment-5498922
+projects[mongodb][patch][] = http://drupal.org/files/check_for_class-1361912-9.patch
