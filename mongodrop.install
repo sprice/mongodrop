@@ -27,4 +27,7 @@ function mongodrop_install() {
   db_insert('users_roles')
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
+
+  // Rehash blocks into MongoDB
+  _mongodb_block_rehash(variable_get('theme_default', 'garland'));
 }
