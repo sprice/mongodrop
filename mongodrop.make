@@ -31,8 +31,8 @@ projects[mongodb][download][revision] = 616e7754d235a239d42199e064619cc5ae3be4f3
 projects[mongodb][patch][] = http://drupal.org/files/write_a_good_readme-994984-15.patch.txt
 
 ; module_exists() not available in session.inc
-; http://drupal.org/node/1412190#comment-5495976
-projects[mongodb][patch][] = http://drupal.org/files/module_exists_not_available-1412190-1.patch
+; http://drupal.org/node/1412190#comment-5498556
+projects[mongodb][patch][] = http://drupal.org/files/module_exists_not_available-1412190-3.patch
 
 ; mongodb_block.module conflicts with block.module
 ; http://drupal.org/node/1163584#comment-5496150
