@@ -48,3 +48,6 @@ projects[mongodb][patch][] = https://raw.github.com/gist/1651138/2c3ff47683287bf
 ; http://drupal.org/node/1412292#comment-5496462
 ; Using a gist as previous patches will conflict
 projects[mongodb][patch][] = https://raw.github.com/gist/1651655/02c77af414f909450b417cc1557e6a9399834b4f/load_session_properties-1412292-too_many_patches.patch
+
+; mongodb_block_theme() missing 'file'
+projects[mongodb][patch][] = https://raw.github.com/gist/2727f9a8ba789dd284ef/4823ca059b939209ecfdd940b315656f018f2a68/mongodb_block_theme.patch
