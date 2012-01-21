@@ -27,6 +27,7 @@ dependencies[] = mongodb_cache
 dependencies[] = mongodb_session
 dependencies[] = mongodb_block
 dependencies[] = mongodb_block_ui
+dependencies[] = mongodb_field_storage
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
