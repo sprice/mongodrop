@@ -43,3 +43,8 @@ projects[mongodb][patch][] = http://drupal.org/files/block_conflict-1163584-11.p
 ; Using a gist. This solution fixes the error but allows blocked users to log in
 ; which isn't ideal
 projects[mongodb][patch][] = https://raw.github.com/gist/1651138/2c3ff47683287bf87ccf7473696f29ada0b39b13/ignore_blocked_users.patch
+
+; _drupal_session_read() does not load 'cache' and other properties to user object
+; http://drupal.org/node/1412292#comment-5496462
+; Using a gist as previous patches will conflict
+projects[mongodb][patch][] = https://raw.github.com/gist/1651655/02c77af414f909450b417cc1557e6a9399834b4f/load_session_properties-1412292-too_many_patches.patch
