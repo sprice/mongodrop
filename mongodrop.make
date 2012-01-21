@@ -51,3 +51,7 @@ projects[mongodb][patch][] = https://raw.github.com/gist/1651655/02c77af414f9094
 
 ; mongodb_block_theme() missing 'file'
 projects[mongodb][patch][] = https://raw.github.com/gist/2727f9a8ba789dd284ef/4823ca059b939209ecfdd940b315656f018f2a68/mongodb_block_theme.patch
+
+; Drupal Crashes when writting to page cache in mongodb
+; http://drupal.org/node/910726#comment-5017190
+projects[mongodb][patch][] = http://drupal.org/files/issues/910726_non_utf8_strings.patch
