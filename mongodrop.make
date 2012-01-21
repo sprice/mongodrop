@@ -40,5 +40,6 @@ projects[mongodb][patch][] = http://drupal.org/files/block_conflict-1163584-11.p
 
 ; Notice: Undefined index: status in _drupal_session_read()
 ; http://drupal.org/node/1378468
-; Using a gist. This solution allows blocked users to log in which isn't ideal
+; Using a gist. This solution fixes the error but allows blocked users to log in
+; which isn't ideal
 projects[mongodb][patch][] = https://raw.github.com/gist/1651138/2c3ff47683287bf87ccf7473696f29ada0b39b13/ignore_blocked_users.patch
