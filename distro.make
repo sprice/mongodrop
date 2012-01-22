@@ -25,6 +25,10 @@ projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-a
 ; http://drupal.org/node/995156
 projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch
 
+; Private properties in abstract class DrupalCacheArray
+; http://drupal.org/node/1371484#comment-5499626
+;projects[drupal][patch][137148] = http://drupal.org/files/private_properties-1371484-44.patch
+
 projects[mongodrop][type] = profile
 projects[mongodrop][download][type] = git
 projects[mongodrop][download][url] = git://github.com/sprice/mongodrop.git
