@@ -11,7 +11,9 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][version] = "7.10"
+projects[drupal][download][type] = git
+projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
+projects[drupal][download][revision] = 9318096df2f22e59f993c48db932c39a15bcc41f
 
 ; Make system directories configurable to allow tests in profiles/[name]/modules to be run.
 ; http://drupal.org/node/911354
@@ -27,7 +29,7 @@ projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portab
 
 ; Private properties in abstract class DrupalCacheArray
 ; http://drupal.org/node/1371484#comment-5499626
-;projects[drupal][patch][137148] = http://drupal.org/files/private_properties-1371484-44.patch
+projects[drupal][patch][137148] = http://drupal.org/files/private_properties-1371484-45.patch
 
 projects[mongodrop][type] = profile
 projects[mongodrop][download][type] = git
