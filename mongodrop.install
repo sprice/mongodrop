@@ -30,6 +30,6 @@ function mongodrop_install() {
 
   // Rehash blocks in MongoDB
   if (module_exists('mongodb_block')) {
-    _mongodb_block_rehash(variable_get('theme_default', 'garland'));
+    _mongodb_block_rehash(variable_get('theme_default', 'rubik'));
   }
 }
