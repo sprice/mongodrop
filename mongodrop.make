@@ -64,3 +64,7 @@ projects[mongodb][patch][] = http://drupal.org/files/mongo-operators.patch
 ; mongoDebugCollection doesn't instantiate mongoDebugCursor
 ; http://drupal.org/node/1116368
 projects[mongodb][patch][] = http://drupal.org/files/issues/mongoDebugCursor_error.patch
+
+; Call to undefined method MongoCollection::delete()
+; http://drupal.org/node/1335326#comment-5499796
+projects[mongodb][patch][] = http://drupal.org/files/no_delete_method-1335326-2.patch
