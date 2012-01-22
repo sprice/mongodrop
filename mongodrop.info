@@ -23,6 +23,7 @@ dependencies[] = diff
 dependencies[] = features
 dependencies[] = mongodb
 dependencies[] = mongodb_cache
+dependencies[] = mongodb_watchdog
 dependencies[] = mongodb_session
 dependencies[] = mongodb_block
 dependencies[] = mongodb_block_ui
