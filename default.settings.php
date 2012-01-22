@@ -514,3 +514,6 @@ $conf['page_cache_invoke_hooks']     = FALSE;
 // Session Caching
 $conf['session_inc'] = 'profiles/mongodrop/modules/contrib/mongodb/mongodb_session/mongodb_session.inc';
 $conf['cache_session'] = 'DrupalMongoDBCache';
+
+// Watchdog limit
+$conf['watchdog_limit'] = WATCHDOG_WARNING;
