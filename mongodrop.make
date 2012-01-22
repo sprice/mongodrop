@@ -60,3 +60,7 @@ projects[mongodb][patch][] = http://drupal.org/files/check_for_class-1361912-9.p
 ; <> operator not implemented
 ; http://drupal.org/node/1328956
 projects[mongodb][patch][] = http://drupal.org/files/mongo-operators.patch
+
+; mongoDebugCollection doesn't instantiate mongoDebugCursor
+; http://drupal.org/node/1116368
+projects[mongodb][patch][] = http://drupal.org/files/issues/mongoDebugCursor_error.patch
