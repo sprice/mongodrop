@@ -56,3 +56,7 @@ projects[mongodb][patch][] = http://drupal.org/files/issues/910726_non_utf8_stri
 ; Fatal error: Class 'TaxonomyTermController' not found
 ; http://drupal.org/node/1361912#comment-5498922
 projects[mongodb][patch][] = http://drupal.org/files/check_for_class-1361912-9.patch
+
+; <> operator not implemented
+; http://drupal.org/node/1328956
+projects[mongodb][patch][] = http://drupal.org/files/mongo-operators.patch
