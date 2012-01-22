@@ -27,8 +27,8 @@ projects[mongodb][download][url] = http://git.drupal.org/project/mongodb.git
 projects[mongodb][download][revision] = 616e7754d235a239d42199e064619cc5ae3be4f3
 
 ; Write a good README.txt
-; http://drupal.org/node/994984#comment-5446130
-projects[mongodb][patch][] = http://drupal.org/files/write_a_good_readme-994984-15.patch.txt
+; http://drupal.org/node/994984#comment-5498722
+projects[mongodb][patch][] = http://drupal.org/files/write_a_good_readme-994984-25.patch.txt
 
 ; module_exists() not available in session.inc
 ; http://drupal.org/node/1412190#comment-5498556
