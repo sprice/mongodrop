@@ -19,9 +19,21 @@ Copy the `distro.make` file to your environment and build the code base using
 
 Install Drupal as usual.
 
+### MongoDB modules used
+
+    mongodb.module
+    mongodb_block.module
+    mongodb_block_ui.module
+    mongodb_cache.module
+    mongodb_field_storage.module
+    mongodb_session.module
+    mongodb_watchdog.module
+
+I haven't used `mongodb_queue.module` yet.
+
 ### Warning
 
-This is very experimental. Expect it to fail miserably.
+This is very experimental. Here be dragons.
 
 ### Based on Build Kit
 
