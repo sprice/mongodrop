@@ -25,8 +25,8 @@ projects[drupal][patch][911354] = http://drupal.org/files/issues/911354.43.patch
 projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch
 
 ; Private properties in abstract class DrupalCacheArray
-; http://drupal.org/node/1371484#comment-5499626
-projects[drupal][patch][137148] = http://drupal.org/files/private_properties-1371484-45.patch
+; http://drupal.org/node/1371484#comment-5505344
+projects[drupal][patch][137148] = http://drupal.org/files/private_properties-1371484-47.patch
 
 projects[mongodrop][type] = profile
 projects[mongodrop][download][type] = git
