@@ -12,9 +12,8 @@ core = 7.x
 
 ; Drupal 7.x Jan 21 14:00 2012 -0800
 projects[drupal][type] = core
-projects[drupal][download][type] = git
-projects[drupal][download][url] = http://git.drupal.org/project/drupal.git
-projects[drupal][download][revision] = 9318096df2f22e59f993c48db932c39a15bcc41f
+projects[drupal][download][type] = get
+projects[drupal][download][url] = http://drupalcode.org/project/drupal.git/snapshot/9318096df2f22e59f993c48db932c39a15bcc41f.tar.gz
 
 ; Make system directories configurable to allow tests in profiles/[name]/modules to be run.
 ; http://drupal.org/node/911354
