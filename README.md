@@ -17,7 +17,7 @@ Copy the `distro.make` file to your environment and build the code base using
 
     $ drush make distro.make --working-copy distro.make public_html
 
-Install Drupal as usual.
+Install Drupal as usual using the MongoDrop install profile.
 
 ### MongoDB modules used
 
