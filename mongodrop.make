@@ -20,6 +20,9 @@ projects[diff][patch][] = http://drupal.org/files/issues/248778-taxo-noderef-sup
 
 ; Contrib
 
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.0-rc1
+
 projects[mongodb][subdir] = contrib
 projects[mongodb][type] = module
 projects[mongodb][download][type] = git
@@ -68,3 +71,15 @@ projects[mongodb][patch][] = http://drupal.org/files/issues/mongoDebugCursor_err
 ; Call to undefined method MongoCollection::delete()
 ; http://drupal.org/node/1335326#comment-5499796
 projects[mongodb][patch][] = http://drupal.org/files/no_delete_method-1335326-2.patch
+
+projects[search_api][subdir] = contrib
+projects[search_api][version] = 1.0
+
+projects[search_api_mongodb][subdir] = contrib
+projects[search_api_mongodb][type] = module
+projects[search_api_mongodb][download][type] = git
+projects[search_api_mongodb][download][url] = http://git.drupal.org/project/search_api_mongodb.git
+projects[search_api_mongodb][download][revision] = b736ccefcd84a8db24f38828312dd2921b72a122
+
+projects[search_api_page][subdir] = contrib
+projects[search_api_page][version] = 1.0-beta2
