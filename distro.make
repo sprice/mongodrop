@@ -10,10 +10,10 @@
 api = 2
 core = 7.x
 
-; Drupal 7.x Jan 21 14:00 2012 -0800
+; Drupal 7.x Jan 31 2012 10:52 +0000
 projects[drupal][type] = core
 projects[drupal][download][type] = get
-projects[drupal][download][url] = http://drupalcode.org/project/drupal.git/snapshot/9318096df2f22e59f993c48db932c39a15bcc41f.tar.gz
+projects[drupal][download][url] = http://drupalcode.org/project/drupal.git/snapshot/d0dc85e5556b47966fe7f541826be8962d3121a9.tar.gz
 
 ; Make system directories configurable to allow tests in profiles/[name]/modules to be run.
 ; http://drupal.org/node/911354
@@ -22,10 +22,6 @@ projects[drupal][patch][911354] = http://drupal.org/files/issues/911354.43.patch
 ; Use vocabulary machine name for permissions
 ; http://drupal.org/node/995156
 projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch
-
-; Private properties in abstract class DrupalCacheArray
-; http://drupal.org/node/1371484#comment-5505344
-projects[drupal][patch][137148] = http://drupal.org/files/private_properties-1371484-47.patch
 
 projects[mongodrop][type] = profile
 projects[mongodrop][download][type] = git
