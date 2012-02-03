@@ -1,5 +1,5 @@
 api = 2
-core = 7.x
+core = 7.12
 
 ; Build Kit drupal-org.make (Jan. 5, 2012)
 
